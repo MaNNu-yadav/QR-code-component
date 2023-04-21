@@ -6,22 +6,25 @@ body{
     font-weight: 400, 700;
 }
 
-p{
-    color: hsl(220, 15%, 55%);
-    font-size: 15px;
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  margin: 20px 0;
 }
 
 .container{
     background-color: white;
     border-radius: 20px;
-    width: 350px;
-    margin: 50px auto;
+    max-width: 350px;
+    /*margin: 50px auto;*/
+    text-align:centre;
     padding: 18px;
 
 }
 .content{
-    text-align: center;
+  /*  text-align: center;
     padding: 22px 0px;
+    */
 }
 .qr{
     
